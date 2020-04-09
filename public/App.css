@@ -1,0 +1,75 @@
+.tablero{  
+  margin-top:30px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.titulo{
+  font-size: 34px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: #48c642;
+  font-weight: 900;
+  margin-top: 15px;
+}
+.tituloGrande{
+  font-size: 38px;
+  text-align: center;
+  font-weight: 800;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+.texto{
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.puntaje{
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+.textoBoton{
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+  color: black;
+}
+
+
+.grid{
+  border: 2px solid#48c642;
+  border-radius: 5px;
+}
+.cardCont{
+  transition:all 0.5s ease;
+}
+
+.cardCont:active {
+  transform: rotateY(180deg);
+}
+
+.boxIntentos{
+  margin-top: 15px;
+  width: 360px;
+  background-color: rgba(135, 224, 157,0.4);
+  border-radius: 10px;
+  border: 1 px solid black;
+}
+
+
+.boton{
+  margin-top: 25px;
+}
